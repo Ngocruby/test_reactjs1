@@ -4,8 +4,14 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-const element = <div className = 'container'> Hello </div>
-// const rootelement = document.getElementById('root')
+// const content = 'HEllO World'
+// const myClassName = 'container'
+//const element = <div className = {myClassName}> {content} </div> // JSX- Js+XML
+const props = {
+    className: 'container',
+    children: 'Hello',
+}
+const element =<div {...props} />
 
 ReactDOM.render(element , document.getElementById('root'));
 
