@@ -22,7 +22,7 @@ ReactDOM.render(element2 , document.getElementById('root2'));
 
 //test3
 const rootElement = document.getElementById('root3')
-const Message = props => <div> {props.children}</div> //Error funktion
+const Message = props => <div> {props.children}</div> //Error funktion_syntax
 const element = (
     <div className = "container">
         <Message> Hello World 
